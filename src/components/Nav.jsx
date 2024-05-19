@@ -30,7 +30,7 @@ const {user , logOut} = useContext(AuthContext)
           </ul>
   
          {
-            user &&  <div className='dropdown dropdown-end z-50'>
+            user &&  <div className= '  z-50 dropdown dropdown-end '>
             <div
               tabIndex={0}
               role='button'
@@ -46,7 +46,7 @@ const {user , logOut} = useContext(AuthContext)
             </div>
             <ul
               tabIndex={0}
-              className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52'
+              className='bg-gray-200 menu menu-sm  dropdown-content mt-3 z-[1000] relative p-2 shadow  rounded-box w-52'
             >
               <li>
                 <div className='justify-between'>Add Job</div>

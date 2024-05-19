@@ -9,9 +9,9 @@ const Main = () => {
     return (
         <div>
             <Headroom> 
-              <Nav></Nav>
+                         <Nav></Nav>
             </Headroom>
-            <div className='min-h-[calc(100vh-407px)]'>
+            <div className='min-h-[calc(100vh-344px)]'>
             <Outlet></Outlet>
             </div>
           
